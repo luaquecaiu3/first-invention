@@ -1,0 +1,53 @@
+
+* { transition:all 0.1s linear; -webkit-transition:all 0.1s linear; -o-transition:all 0.1s linear; -moz-transition:all 0.1s linear; }
+* { padding:0; margin:0.1%; }
+
+p {
+	text-align: justify;
+	color: blue;
+}
+
+img.cafe{
+	width: 1%;
+	height: 1%;
+}
+
+ul {
+	list-style: none;
+}
+
+li{
+	margin-left: 1.5%;
+}
+
+.h-red{
+	color: red;
+}
+
+#h-orange{
+	color: orange;
+}
+
+a.texto:link, a.texto:visited {
+	margin: 1% 1% 1% 1%;
+	background-color: black;
+	color: pink;
+	text-decoration: none;
+}
+
+a.texto:hover {
+	margin-left: 2%;
+	background-color: gray;
+	color: purple;
+	font-weight: bold;
+}
+
+dt{
+border-left: dotted;
+border-color: purple;
+margin-left: 1%;
+}
+
+dd{
+margin-left: 2%;
+}
